@@ -40,7 +40,7 @@ servo_6a = kit1.servo[14]
 # Other 
 # head in up/down direction (yes movement)
 servo_yes = kit0.servo[11]
-servo_no = kit1.servo(4)
+servo_no = kit1.servo[4]
 
 # Leg Definitions
 def L1(hip_angle, knee_angle, ankle_angle):
