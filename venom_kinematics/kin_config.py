@@ -38,7 +38,7 @@ servo_5a = kit1.servo[10]
 servo_6a = kit1.servo[14]
 
 # Other 
-# head in up/down direction (yes movement)
+# head in up/down direction (yes movement) and side to side (no movement)
 servo_yes = kit1.servo[4]
 servo_no = kit0.servo[11]
 

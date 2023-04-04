@@ -8,13 +8,11 @@ from kin_actions.kin_spin_up import *
 from kin_actions.kin_head_wakeup import *
 #--------------------------------------
 
-speed = .2
+speed = .02
 
 head_wakeup(speed)
-rotate_cw(speed)
-rotate_cw(speed)
-rotate_cw(speed)
-rotate_ccw(speed)
-rotate_ccw(speed)
-rotate_ccw(speed)
 
+head_angle_yes(35)
+time.sleep(.2)
+head_angle_no(90)
+time.sleep(.2)
