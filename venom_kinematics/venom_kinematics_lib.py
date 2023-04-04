@@ -8,3 +8,5 @@ from kin_actions.kin_spin_up import *
 from kin_actions.kin_headscan_y import *
 from kin_actions.kin_headscan_x import *
 #--------------------------------------
+
+print("Servo System Linked")
