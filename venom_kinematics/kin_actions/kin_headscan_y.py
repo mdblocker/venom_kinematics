@@ -1,6 +1,6 @@
 from kin_config import *
-import kin_nod
-import kin_sup
+from kin_nod import *
+from kin_sup import *
 import time
 #-----------------------
 
