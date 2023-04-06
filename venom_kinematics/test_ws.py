@@ -1,7 +1,7 @@
 from venom_kinematics_lib import *
 #----------------------------------
 
-speed = .02
+speed = .04
 
 headscan_y(speed)
 

@@ -4,8 +4,6 @@ import time
 
 def head_sup(speed):
 
-    head_angle_yes(50) # home position, going down to max min 
-    time.sleep(speed)
     head_angle_yes(51)
     time.sleep(speed)
     head_angle_yes(52)
@@ -168,6 +166,5 @@ def head_sup(speed):
     time.sleep(speed)
     head_angle_yes(51)
     time.sleep(speed)
-    head_angle_yes(50) # back to home
-    time.sleep(speed)
+
     

@@ -4,8 +4,6 @@ import time
 
 def head_nod(speed):
 
-    head_angle_yes(50) # home position, going down to max min 
-    time.sleep(speed)
     head_angle_yes(49)
     time.sleep(speed)
     head_angle_yes(48)
@@ -182,5 +180,5 @@ def head_nod(speed):
     time.sleep(speed)
     head_angle_yes(49)
     time.sleep(speed)
-    head_angle_yes(50)
+
 
