@@ -9,5 +9,3 @@ def headscan_y(speed):
     head_nod(speed)
     head_sup(speed)
     
-
-
