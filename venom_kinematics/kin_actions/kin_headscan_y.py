@@ -7,8 +7,5 @@ import time
 def headscan_y(speed):
 
     head_nod(speed)
-    head_angle_yes(50)
-    time.sleep(speed)
     head_sup(speed)
-    head_angle_yes(50)
-    time.sleep(speed)
+
