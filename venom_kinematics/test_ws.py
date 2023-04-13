@@ -1,12 +1,7 @@
 from venom_kinematics_lib import *
 #----------------------------------
 
-speed = .04
-
-headscan_y(speed)
-
-head_angle_yes(50)
-time.sleep(.2)
-head_angle_no(90)
-time.sleep(.2)
-
+down()
+time.sleep(1)
+sym()
+time.sleep(1)
