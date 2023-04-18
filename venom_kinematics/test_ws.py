@@ -1,7 +1,6 @@
 from venom_kinematics_lib import *
 #----------------------------------
 
-down()
-time.sleep(1)
-sym()
-time.sleep(1)
+for x in range(90):
+    head_angle_yes(x)
+    time.sleep(.02)
