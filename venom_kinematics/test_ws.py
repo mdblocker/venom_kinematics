@@ -8,5 +8,5 @@ time.sleep(1)
 headscan_y(speed)
 headscan_x(speed)
 
-wake_up(30, 2, speed)
+wake_up(60, 2, speed)
 
