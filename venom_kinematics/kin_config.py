@@ -11,8 +11,8 @@ i2c = busio.I2C(board.SCL, board.SDA)
 pca = adafruit_pca9685.PCA9685(i2c)
 
 # PWM setup
-kit0 = ServoKit(channels=16, address=0x40, frequency=53.30)
-kit1 = ServoKit(channels=16, address=0x41, frequency=53.30)
+kit0 = ServoKit(channels=16, address=0x40, frequency=50)
+kit1 = ServoKit(channels=16, address=0x41, frequency=50)
 
 # SERVO VARIABLES/
 # Hips
