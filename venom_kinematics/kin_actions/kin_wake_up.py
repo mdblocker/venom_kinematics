@@ -21,27 +21,27 @@ def wake_up(angle, interval, speed):
         time.sleep(speed)
         L3(90, -x, 0)
         time.sleep(speed)
-
+    for x in range(angle, 0, interval):
         L5(90, x, 0)
         time.sleep(speed)
         L5(90, -x, 0)
         time.sleep(speed)
-
+    for x in range(angle, 0, interval):
         L1(90, x, 0)
         time.sleep(speed)
         L1(90, -x, 0)
         time.sleep(speed)
-
+    for x in range(angle, 0, interval):
         L6(90, x, 0)
         time.sleep(speed)
         L6(90, -x, 0)
         time.sleep(speed)
-
+    for x in range(angle, 0, interval):
         L2(90, x, 0)
         time.sleep(speed)
         L2(90, -x, 0)
         time.sleep(speed)
-
+    for x in range(angle, 0, interval):
         L4(90, x, 0)
         time.sleep(speed)
         L4(90, -x, 0)
