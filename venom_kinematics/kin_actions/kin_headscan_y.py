@@ -1,11 +1,15 @@
 from kin_config import *
-from kin_actions.kin_nod import *
-from kin_actions.kin_sup import *
 import time
 #-----------------------
 
 def headscan_y(speed):
-
-    head_nod(speed)
-    head_sup(speed)
+    for y in range(50, 90, 1):
+        head_angle_yes(y)
+        time.sleep(speed)
+    for y in range(90,0,-1):
+        head_angle_yes(y)
+        time.sleep(speed)
+    for y in range(0, 50, 1):
+        head_angle_yes(y)
+        time.sleep(speed)
 
