@@ -4,7 +4,7 @@ import time
 #-----------------------
 
 def wake_up(speed):
-    rest()
+   
     L1(90, 50, 0)
     L2(90, 50, 0)
     L3(90, 50, 0)
@@ -13,30 +13,12 @@ def wake_up(speed):
     L6(90, 50, 0)
     time.sleep(speed)
 
-    for x in range(0, 50, -2):
-        L3(90, x, 0)
-        time.sleep(speed)
-        L3(90, -x, 0)
-        time.sleep(speed)
-        L6(90, x, 0)
-        time.sleep(speed)
-        L6(90, -x, 0)
-        time.sleep(speed)
-        L2(90, x, 0)
-        time.sleep(speed)
-        L2(90, -x, 0)
-        time.sleep(speed)
-        L4(90, x, 0)
-        time.sleep(speed)
-        L4(90, -x, 0)
-        time.sleep(speed)
+    for x in range(50, 0, 2):
         L1(90, x, 0)
         time.sleep(speed)
-        L1(90, -x, 0)
+    for x in range(0, 50, 2):
+        L1(90, x, 0)
         time.sleep(speed)
-        L5(90, x, 0)
-        time.sleep(speed)
-        L5(90, -x, 0)
-        time.sleep(speed)
+        
       
 
