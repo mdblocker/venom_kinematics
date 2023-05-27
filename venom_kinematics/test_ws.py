@@ -5,10 +5,13 @@ speed = .02
 
 wake_up(speed)
 
-for x in range(50, 5, -2):
+headscan_x(speed)
+headscan_y(speed)
+
+for x in range(50, 0, -1):
     L1(90, x, 0)
-    time.sleep(speed) 
-for x in range(5, 50, 2):
-    L1(90, x, 0)
-    time.sleep(speed)
-    
+    time.sleep(.02)
+
+for y in range(0, 50, 1):
+    L1(90, y, 0)
+    time.sleep(.02)
