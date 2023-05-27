@@ -16,9 +16,10 @@ def wake_up(speed):
     for x in range(50, 0, 2):
         L1(90, x, 0)
         time.sleep(speed)
+    time.sleep(speed)
     for x in range(0, 50, 2):
         L1(90, x, 0)
         time.sleep(speed)
+    time.sleep(speed)
         
       
-
