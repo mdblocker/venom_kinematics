@@ -9,56 +9,56 @@ headscan_x(speed)
 headscan_y(speed)
 
 #1
-for x in range(50, 0, -1):
-    L1(90, x, 0)
+for x in range(50, 0, -2):
+    L1(90, x, 20)
     time.sleep(.02)
 time.sleep(speed)
-for y in range(0, 30, 1):
-    L1(90, y, 0)
+for y in range(0, 50, 2):
+    L1(90, y, 20)
     time.sleep(.02)
 time.sleep(speed)
 #6
-for x in range(50, 0, -1):
-    L6(90, x, 0)
+for x in range(50, 0, -2):
+    L6(90, x, 20)
     time.sleep(.02)
 time.sleep(speed)
-for y in range(0, 30, 1):
-    L6(90, y, 0)
+for y in range(0, 50, 2):
+    L6(90, y, 20)
     time.sleep(.02)
 time.sleep(speed)
 #3
-for x in range(50, 0, -1):
-    L3(90, x, 0)
+for x in range(50, 0, -2):
+    L3(90, x, 20)
     time.sleep(.02)
 time.sleep(speed)
-for y in range(0, 30, 1):
-    L3(90, y, 0)
+for y in range(0, 50, 2):
+    L3(90, y, 20)
     time.sleep(.02)
 time.sleep(speed)
 #4
-for x in range(50, 0, -1):
-    L4(90, x, 0)
+for x in range(50, 0, -2):
+    L4(90, x, 20)
     time.sleep(.02)
 time.sleep(speed)
-for y in range(0, 30, 1):
-    L4(90, y, 0)
+for y in range(0, 50, 2):
+    L4(90, y, 20)
     time.sleep(.02)
 time.sleep(speed)
 #2
-for x in range(50, 0, -1):
-    L2(90, x, 0)
+for x in range(50, 0, -2):
+    L2(90, x, 20)
     time.sleep(.02)
 time.sleep(speed)
-for y in range(0, 30, 1):
-    L2(90, y, 0)
+for y in range(0, 50, 2):
+    L2(90, y, 20)
     time.sleep(.02)
 time.sleep(speed)
 #5
-for x in range(50, 0, -1):
-    L5(90, x, 0)
+for x in range(50, 0, -2):
+    L5(90, x, 20)
     time.sleep(.02)
 time.sleep(speed)
-for y in range(0, 30, 1):
-    L5(90, y, 0)
+for y in range(0, 50, 2):
+    L5(90, y, 20)
     time.sleep(.02)
 time.sleep(speed)
